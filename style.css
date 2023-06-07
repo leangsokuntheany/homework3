@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    padding: 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);
+    padding-right: 20px;
+}
+.navbar ul li a:hover {
+    color: white;
+}
+.logo {
+    padding-right: 25px;
+    padding: 20px;
+    cursor: pointer;
+}
+.search-container input {
+    background-color:  rgb(40, 40, 40);
+    color: rgb(170, 170, 170);
+}
+.navbar {
+    overflow: hidden;
+}
+.navbar input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    border: 1px solid rgb(118, 118, 118);
+    border-radius: 5px;
+    margin: 10px;
+  }
+.search-button {
+    padding: 6px;
+    font-size: 17px;
+    border-radius: 5px;
+    margin: 10px;
+    color: blue;
+    background-color:  rgb(40, 40, 40);
+    border: 1px solid blue;
+}
+.search-button:hover {
+    color: white;
+    background-color: blue;
+}
+.slideshow {
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    background-color: rgb(94, 93, 93);
+}
+.slideshow-content {
+    text-align: center;
+    color: white;
+    position: relative;
+}
+#left {
+    position: absolute;
+    top: 20%;
+    left: 10%;;
+    font-size: 50px;
+    color: rgb(178, 178, 178);
+}
+#right {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    font-size: 50px;
+    color: rgb(178, 178, 178);
+}
+#left:hover, #right:hover {
+    color: white;
+    cursor: pointer;
+}
+.learn-more-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: rgb(74, 74, 255);
+    border-radius: 10px;
+    border: 1px solid rgb(74, 74, 255);;
+}
+.learn-more-button:hover {
+    background-color: rgb(49, 49, 255);
+}
+.slideshow-point {
+    width: 30px;
+    height: 5px;
+    background-color: rgb(170, 170, 170);
+    display: inline-block;
+    margin-top: 80px;
+}
+.grid-card-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.row {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+.card div {
+    width: 140px;
+    height: 140px;
+    background-color: rgb(71, 71, 71);
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.card h1 {
+    margin-bottom: 10px;
+}
+.card p {
+    margin-bottom: 10px;
+}
+.column {
+    text-align: center;
+}
+.card-button {
+    background-color: gray;
+    color: white;
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.card-button:hover {
+    background-color: rgb(94, 94, 94);
+}
+.Infomation {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(232, 232, 232);
+}
+.info-container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 500px;
+}
+.info-container2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    height: 500px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.information2 {
+    padding-bottom: 80px;
+    background-color: rgb(232, 232, 232);
+}
+.info-container-1 {
+    width: 60%;
+}
+.info-container-1 h1 {
+    margin-top: 30%;
+}
+.info-container-2 {
+    text-align: center;
+    width: 40%;
+    background-color: rgb(220, 220, 220);
+    border-radius: 20px;
+}
+.info-container-2 p {
+    margin-top: 50%;
+    font-size: 50px;
+}
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer div a {
+    text-decoration: none;
+}
+.footer div a:hover {
+    color: rgba(0, 0, 255, 0.562);
+}
